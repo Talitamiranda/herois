@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/imgherois"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/gamora"/>
+    <TextView
+        android:id="@+id/nomeherois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gamora"
+        android:textStyle="bold"
+        android:textColor="@color/purple_200"
+        android:textSize="30sp"/>
+
+</LinearLayout>
